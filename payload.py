@@ -1,8 +1,8 @@
-def addBookPayLoad(isbn):
+def addBookPayLoad(isbn,aisle):
     body = {
         "name": "Mission Impossible",
         "isbn": isbn,
-        "aisle": "678",
+        "aisle": aisle,
         "author": "Tom Cruise"
     }
     return body
